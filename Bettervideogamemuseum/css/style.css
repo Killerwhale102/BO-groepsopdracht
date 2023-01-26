@@ -7,19 +7,11 @@
 header{
     background-color: #0A151C;
     color: white;
-    height: 100px;
-    padding: 40px;
-    margin-bottom: 50px;
+    height: 150px;
+    padding: 10px 40px 20px 60px;
+    margin-bottom: 150px;
 }
 
-header > h2{
-    height: 100%;
-    text-transform: uppercase;
-    display: inline-flex;
-    align-items: center;
-    font-size: 35px;
-
-}
 
 nav{
     height: 100%;
@@ -37,7 +29,7 @@ nav > ul{
 }
 
 nav li a:hover{
-    color: #fc03c6;
+    color: #e91e63;
 }
 
 
@@ -54,6 +46,22 @@ nav > ul > li > a{
 
 }
 
+.Languagebutton{
+    border:1px solid #e91e63;
+    background: #e91e63;
+    padding:0 5px;
+    border-radius: 50px;
+}
+
+.Languagebutton > a:hover{
+    color: #56abf0;
+}
+
+.logo{
+    height: 130px;
+}
+
+
 body{
     background-color: #222831;
     font-size: 20px;
@@ -67,9 +75,49 @@ article{
 }
 
 .history{
-    font-size: 30px;
     margin-top: 150px;
     margin-bottom: 150px;
+}
+
+.history > h3{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.history > p{
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.openingTimes{
+    font-size: 150%;
+    width: 60vw;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.contact{
+    font-size: 150%;
+    width: 60vw;   
+}
+
+.contact > p > a{
+    color: white;
+    text-decoration: none;
+    color: #e91e63;
+}
+
+.contact p a:hover{
+    color: #56abf0;
+}
+
+.aboutUs > p{
+    margin-bottom: 100px;
+}
+
+.aboutUs > h3{
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .imageslider{
@@ -82,11 +130,13 @@ article{
 figure{
     height: 600px;
     width: 800px;
+    border-radius: 50px;
     background-size: contain;
     background-repeat: no-repeat;
     animation-name: fotoslider;
     animation-duration: 15s;
     animation-iteration-count: infinite;
+    margin-top: 40px;
 }
 
 @keyframes fotoslider {
@@ -145,12 +195,9 @@ figure{
 }
 
 p{
-    margin-top: 70px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-
-
-
 
 
 .wrapper {
@@ -237,11 +284,6 @@ p{
     font-weight: 400;
     font-size: 16px;
     background: #24252a;
-}
-
-h3 {
-    margin: 3px;
-    padding: 4px;
 }
 
 .card i {
@@ -365,12 +407,14 @@ ul{
 #pong{
     border: 2px solid #FFF;
     position: absolute;
-    margin :auto;
+    margin : 350px auto 0 auto;
     top:0;
     right:0;
     left:0;
     bottom:0;
 }
+
+
 
 .videogamefooter{
     margin-top: 900px;
